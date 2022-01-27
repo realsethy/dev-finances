@@ -1,0 +1,125 @@
+
+body{
+    margin: 0px;
+    background-color: #F0F1F5;
+
+}
+
+.container{
+    font-family: "poppins", sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    background-color: #2D4A22;
+    width: auto;
+    height: 238px;
+}
+
+.titleCabecalho{
+    margin-top: 1.5em;
+}
+
+.boxTudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -6em;
+}
+
+.boxEntradas, .boxSaidas, .boxTotal{
+    width: 352px;
+    height: 136px;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 2em;
+    color: #363F5F;
+}
+
+.titleEntradas{
+    font-size: 16px;
+}
+
+.titleSaidas{
+    color: #969CB2;
+    font-size: 16px;
+}
+
+.titleTotal{
+    font-size: 16px;
+}
+
+.value{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.value span{
+    font-weight: 600;
+}
+
+.box-maior{
+    margin: 2em;
+}
+
+.espaco-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boxTotal{
+    background-color: #49AA26;
+    color: white;
+}
+
+
+.boxTable{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+    
+}
+
+table{
+    width: 1120px;
+    border-spacing: 0 .5em;
+}
+
+thead{
+    text-align: left;
+}
+
+th {
+    font-size: 16px;
+    color: #969CB2;
+    font-weight: 400;
+    padding: 1.5em 2em 1.5em 2em;
+}
+
+th:first-child, td:first-child{
+    border-radius: 10px 0 0 10px;
+}
+
+th:last-child, td:last-child{
+    border-radius: 0 10px 10px 0;
+}
+
+td{
+    background-color: white;
+    color: #969CB2;
+    padding: 1.5em 2em 1.5em 2em;
+}
+
+.titleTd{
+    color: #363F5F;
+}
+
+.titleExpense{
+    color: red;
+}
+
+.titleIncome{
+    color: #49AA26;
+}
